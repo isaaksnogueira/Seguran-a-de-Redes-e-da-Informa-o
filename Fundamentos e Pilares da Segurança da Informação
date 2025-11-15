@@ -1,0 +1,78 @@
+Tema 1 - Conceitos Básicos
+É importante destacar que, nas últimas décadas, o uso de dispositivos móveis e computadores tem crescido de maneira exponencial, tornando-se cada vez mais útil para a realização de tarefas pessoais e profissionais de forma eficiente e centralizada. A comunicação alcançou grandes proporções graças ao uso da internet, mas a segurança dos dados transmitidos permanece um grande desafio.
+Uma das principais habilidades a ser desenvolvida pelos profissionais de redes e segurança é compreender como os sistemas e informações podem ser expostos e, principalmente, como podem ser protegidos. Para isso, é imprescindível conhecer o triângulo da tecnologia e entender como cada um de seus pilares pode ser impactado por diferentes ameaças e vulnerabilidades. Vamos explorar esses aspectos a seguir.
+
+Definição de Segurança da Informação
+Sabemos que a tecnologia está se expandindo em grande velocidade e que as organizações estão cada vez mais dependentes do uso de sistemas para gerenciar seus dados de forma eficiente. No entanto, essa evolução tecnológica exige uma atenção constante na implementação de recursos de segurança cada vez mais robustos, capazes de proteger o perímetro de rede em ambientes de diferentes níveis de complexidade.
+Antes de estudar os inúmeros recursos de segurança da informação, é importante compreender o que ela significa. De acordo com a segurança da informação pode ser definida como um conjunto de práticas, políticas, normas, leis e recursos computacionais – físicos e lógicos – que podem ser implementados em qualquer organização que valorize o sigilo de seus dados e a proteção de seus ativos e aplicativos contra riscos internos ou externos.
+
+É relevante mencionar que os ativos podem ser classificados em diferentes categorias:
+
+Física
+A proteção física envolve qualquer ativo que permita o acesso ao local em que os dados são armazenados e ativos hospedeiros como as estações de trabalho, servidores e equipamentos de conectividade. Ao realizar este tipo de proteção, é possível garantir que somente pessoas autorizadas possam acessar o local físico.
+
+Humana
+Erros humanos são comuns e não devem ser descartados por mais que as tecnologias mais eficientes sejam implementadas no ambiente corporativo (Forouzan; Mosharraf, 2012). Para evitar configurações incorretas ou mudanças acidentais, políticas podem ser adotadas junto ao treinamento dos funcionários sobre o uso adequado dos recursos, possíveis ameaças e como lidar com uma ação duvidosa na rede. É essencial lembrar que as pessoas representam o elo mais fraco de uma rede, principalmente ao expor informações na internet de maneira inadequada.
+
+Organizacional
+O nível organizacional define principalmente os objetivos estratégicos da organização e de que forma podem ser afetados pela tecnologia seja positiva ou negativamente. Os processos do negócio são diretamente influenciados pelo uso da tecnologia e é necessária uma sincronia entre os objetivos da organização e a forma como a segurança da rede é conduzida.
+
+Tecnológica
+Os dados trafegam de uma rede para a outra e para manter a rede protegida, é necessário realizar constantemente uma análise minuciosamente em relação ao tráfego entrante principalmente. A segurança tecnológica facilita a identificação de possíveis falhas ou brechas que as causem. É claro que os dados ainda podem ser mantidos em formato físico, mas em sua maioria são digitais já que as plataformas digitais estão cada vez mais em alta.
+
+Vamos analisar agora o triângulo da segurança, como a segurança da informação é segmentada e quais são os pilares a serem preservados para garantir eficiência na proteção dos dados.
+
+Triângulo da Segurança
+Os pilares da segurança da informação formam a base de um conceito chamado Triângulo ou Tríade da Segurança da Informação, que sustenta um ciclo completo de ações voltadas para a prevenção de incidentes, detecção de problemas e resposta a falhas. Essas ações abrangem diferentes recursos, incluindo tecnologias, processos e pessoas.
+Confidencialidade
+Para manter informações acessíveis aos usuários devidamente autorizadas, as organizações devem proteger as informações confidenciais de atos maliciosos que possam comprometer a confidencialidade das informações. A confidencialidade não diz respeito apenas ao armazenamento, mas também à transmissão segura de informações (Machado, 2014).
+No entanto, nem todas as informações exigem confidencialidade, que é uma característica necessária a ser mantida com relação às informações sigilosas (dados pessoais, dados bancários, dados de identificação e críticos para o negócio por exemplo).
+Exemplo
+Um exemplo de caso que fere a confiabilidade é a engenharia social, em que o atacante entra em contato com a vítima se passando por outra pessoa na tentativa de interceptar dados simulando algum propósito coerente. Esse contato se dá por meio de:
+Com o usuário, simulando a necessidade de atualização de um cadastro que exija dados pessoais ou senhas para acesso ao sistema bancário;
+Envio de formulários, em que o usuário deve preencher seus dados em uma página da web ou encaminhar por e-mail simulando um processo interno da organização;
+Worm, em que os impostores sobrecarregam servidores atraindo a atenção do usuário através do envio de um link infectado, onde ele insere as informações.
+
+Em suma, quando os dados são transferidos ou compartilhados na internet, precisam estar devidamente protegidos, para evitar interceptação no meio, espionagem ou vazamento de dados.
+Integridade
+O objetivo de manter a integridade dos dados é garantir que as informações recebidas não sejam alteradas e não possam ser alvo de atividades fraudulentas. Em outras palavras, a integridade garante que apenas objetos autorizados pelo mecanismo de autorização possam acessar e modificar os dados. Os técnicos colocados para confiabilidade também se aplicam à manutenção da integridade dos dados (Machado, 2014).
+O esquema a seguir resume como a integridade pode ser mantida em um sistema de informação:
+Coleta de Dados
+Processos para garantir a exatidão e autenticidade dos dados na entrada.
+Armazenamento de Dados
+Mecanismos de proteção para manter a consistência e segurança dos dados armazenados.
+Verificação de Integridade
+Utilização de técnicas de checagem (checksums) e hashing (comparação algoritmia) para assegurar que os dados não foram alterados.
+Procedimentos para manutenção da integridade em um sistema de informação. Fonte: Elaborada pela autora.
+Além disso, é primordial lembrar que a integridade não afeta somente os meios eletrônicos, uma vez que ao ter acesso a um documento impresso, um indivíduo pode alterar informações, falsificar assinaturas e realizar modificações que alterem o valor dos dados. Para evitar este tipo de situação, identificar os indivíduos a partir de recursos como assinatura digital, certificados digitais, identificação única antes de transações e algoritmos capazes de identificar alterações são essenciais.
+
+Disponibilidade
+A finalidade do pilar da disponibilidade é garantir que os dados estejam disponíveis quando solicitados. Isso significa que as pessoas com a devida autorização devem ter acesso aos dados sempre que necessário (Machado, 2014).
+Outros fatores técnicos estão diretamente relacionados com a disponibilidade como o desempenho da rede e a eficiência do sistema, o que exige uma manutenção adequada da infraestrutura.
+Rotinas de backup e recuperação de desastres ajudam a garantir que as informações estejam disponíveis mesmo que o ambiente original seja afetado possibilitando que a restauração dos sistemas seja realizada em casos de emergência ou de desastres que acarretem a perda dos dados.
+Não apenas os dados devem estar espelhados em diferentes localidades, mas a infraestrutura como um todo deve ser redundante estando disponível em diferentes localidades, para garantir que quando os sistemas hospedados no sistema ou infraestrutura principal sofram qualquer interrupção, o ambiente em standby (espera) seja acionado, minimizando os impactos operacionais.
+As ameaças focadas neste pilar podem afetar a disponibilidade parcial ou totalmente de uma rede de computadores. Um atacante pode querer prejudicar a rede por diversos motivos que vão desde a concorrência, teste de conhecimentos técnicos e principalmente para gerar lucros financeiros a seu favor.
+Alguns tipos de ameaças frequentes são:
+Ataques de negação de serviço (DDoS)
+O objetivo dos atacantes é sobrecarregar os servidores encaminhando uma série de solicitações falsas aos servidores e interromper o acesso aos sistemas, impedindo que as operações sejam executadas e gerando tempo de inatividade.
+Ransomware
+Ao acessar os dados, os atacantes podem utilizar recursos de criptografia a seu favor, bloqueando o acesso aos dados da organização e exigindo um resgate para restaurar a funcionalidade dos sistemas, principalmente quando se trata de dados de grande valor financeiro ou reputacional.
+Importante
+Existem dois pilares adicionais que pelas boas práticas também devem ser adotados em conjunto com o triângulo: (i) Autenticidade: refere-se à garantia de que a identidade de uma pessoa, sistema, ou objeto é genuína através de um login antes que as ações possam ser realizadas, por exemplo; (ii) Não repúdio: refere-se à capacidade de provar que uma transação não pode ser negada seja por meio da assinatura de um contrato digital ou qualquer outro meio que não possa ser revogado.
+Como vimos, a segurança da informação envolve diferentes conceitos e por isso é necessário implementar a segurança em diferentes níveis da rede. Antes de compreender como os dispositivos podem ser implementados em Projetos em Redes de Computadores, é importante conhecer sobre as principais ameaças que acometem os dados. Você estudará sobre o tema no próximo tópico.
+Ameaças, Vulnerabilidades e Riscos
+Em uma rede de computadores, as ameaças e ataques podem ter diferentes origens e ocasionar uma série de problemas técnicos e operacionais. Tanto os ataques, como ameaças e ações maliciosas podem afetar a funcionalidade dos sistemas e consequentemente causar uma parada nas operações da rede.
+Os crimes cibernéticos evoluíram na mesma medida que as tecnologias. Ao analisá-los, é possível notar que muitos crimes que aconteciam fora da internet foram adaptados para atingir os sistemas digitais, principalmente com a possibilidade de alcançar um maior número de pessoas (usuários) que se comunicam através da rede mundial de computadores. Alguns dos principais ataques serão abordados a seguir.
+Riscos Operacionais
+Os riscos operacionais são grandes ameaças e abrem brechas para que acontecimentos de diferentes níveis aconteçam e prejudiquem a segurança da informação e das redes. Em um contexto geral, podemos definir os riscos de acordo com seus impactos e consequências.
+A insegurança dos serviços de uma rede quando executados de maneira incorreta representam grandes riscos aos ativos e sistemas. Portas lógicas má configuradas podem facilitar o risco de que acessos não autorizados que afetam o triangulo da segurança da informação. Os riscos de ataque e o controle remoto não autorizado tomam grandes proporções. Entre este tipo de risco estão a preservação de configurações padrões de fábrica que são conhecidas publicamente (Hansche, 2016).
+Adicionalmente, as interfaces inseguras do ecossistema que são a porta de acesso para os sistemas podem ser altamente prejudiciais. As principais interfaces são Interfaces Web (figura 2) e APIs (Application Programming Interface - Interface de Programação de Aplicações) que quando não forem configuradas corretamente podem comprometer os dispositivos e seus componentes.
+De acordo com Schneider (2020), os usuários realizam o acesso através da camada de aplicação que está geralmente exposta na internet e por isso deve ser ponto de atenção em relação aos riscos operacionais.
+Além disso, ameaças e vulnerabilidades podem ocorrer por falta da adoção de medidas de segurança adequadas para um determinado software. Deficiências relacionadas à proteção física facilitam o acesso para os atacantes a partir de portas USB, cartões SD e qualquer dispositivo físico que possa ser conectado para armazenar e copiar dados.
+
+Importante
+É importante que sistemas operacionais sejam constantemente atualizados principalmente em relação às soluções fornecidas pelo fabricante que em muitos casos devem ser aplicadas de maneira corretiva após a identificação de bugs ou falhas. Quando a organização e/ou os profissionais responsáveis não consideram a real criticidade das atualizações do sistema, alguns mecanismos podem ser afetados seja em relação à validação de firmware; funcionalidades ausentes ou problemas que podem afetar os usuários em suas tarefas cotidianas.
+Dessa forma, se o sistema possui qualquer deficiência de segurança ou operacional, incluindo o risco ao qual são expostos os dados em trânsito, em repouso ou em processamento, o controle de acesso aos dados confidenciais torna-se mais difícil.
+Neste tema, estudamos os aspectos de segurança dos sistemas de uma organização, destacando a importância de preservar a integridade, confidencialidade e disponibilidade dos dados. As ameaças à segurança da informação podem ter consequências graves, mas, antes de lidar com esses eventos, é fundamental compreender os conceitos e definições básicas abordados neste tema.
+Eventos que envolvem perda de dados críticos, interrupção de operações, prejuízos financeiros e danos à reputação de uma organização exigem a implementação de controles eficazes. Esses controles devem evitar a manipulação indevida de dados, a perda de integridade e até mesmo a total indisponibilidade de serviços essenciais.
+Portanto, é indispensável que as organizações adotem medidas de segurança adequadas para mitigar riscos operacionais como os apresentados até aqui, com o objetivo principal de assegurar a continuidade dos negócios.
